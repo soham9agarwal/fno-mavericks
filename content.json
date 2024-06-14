@@ -1,0 +1,10 @@
+{
+    "dailyCalls": [
+        "Buy ABC at 100, Target 120, Stop Loss 90",
+        "Sell XYZ at 200, Target 180, Stop Loss 210"
+    ],
+    "discounts": [
+        "Get 10% off on your first subscription!",
+        "Special offer: Subscribe now and get 2 months free!"
+    ]
+}

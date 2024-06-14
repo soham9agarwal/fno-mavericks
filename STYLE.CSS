@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background-image: url('My first design 1.png');
+}
+
+.about, .market-analysis, .daily-calls, .subscribe, .discount-updates, .faq, .telegram {
+    background-image: url('Gemini_Generated_Image_d7mjrhd7mjrhd7mj.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-content, .robot {
+    position: relative;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.robot {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('shinchan-robot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 999;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 0;
+    display: block;
+}
+
+.navigation a:hover {
+    color: #ff9800;
+}
